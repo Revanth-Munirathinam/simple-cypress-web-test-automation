@@ -13,4 +13,4 @@ Scenario: As a book lover, I should be able to order a drama called “The Rainb
     And I wait for order details section to load
   Then I validate order details for 1 quantity of "The Rainbow" book at 124 dollars with a discount of 10.0
   When I delete the existing record
-  Then I validate the record is successfully deleted
+  Then I validate the record is successfully deleted 1 quantity of "The Rainbow" book at 124 dollars with a discount of 10.0
