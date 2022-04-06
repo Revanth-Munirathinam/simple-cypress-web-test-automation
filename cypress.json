@@ -1,0 +1,13 @@
+{
+    "testFiles": "**/*.{feature,features}",
+    "env": {
+      "url": "https://react.simprocloud.com/build/index.html"
+    },
+    "reporter": "mochawesome",
+    "reporterOptions": {
+       "reportDir": "cypress/results",
+       "overwrite": false,
+       "html": false,
+       "json": true
+    }
+  }
